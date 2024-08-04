@@ -27,7 +27,7 @@ function calculateTotalTime() {
 </script>
 
 <template>
-    <h2 style="text-align: center;">محاسبۀ ساعت کاری وبینا</h2>
+    <h2 style="text-align: center;">محاسبۀ ساعت کاری</h2>
     <div style="direction: rtl;" class="center">
 
       <!-- Header labels for hours and minutes -->
@@ -60,13 +60,6 @@ function calculateTotalTime() {
       <!-- Display the result -->
       <h2>{{ resultHours }} ساعت و {{ resultMinutes }} دقیقه</h2>
       <h2>هزینه کل: {{ totalCost.toLocaleString() }} تومان</h2>
-    </div>
-    <hr/>
-
-    <div class="center">
-        توسعه توسط <a href="https://webinaa.ir">وبینا</a>
-        <br/>
-        <a href="https://github.com/webinaa-ir/timecalc">GitHub</a>
     </div>
 </template>
 
