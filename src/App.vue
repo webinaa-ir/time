@@ -59,7 +59,7 @@ function calculateTotalTime() {
 
       <!-- Display the result -->
       <h2>{{ resultHours }} ساعت و {{ resultMinutes }} دقیقه</h2>
-      <h2>هزینه کل: {{ totalCost.toLocaleString() }} تومان</h2>
+      <h2>دستمزد کل: {{ totalCost.toLocaleString() }} تومان</h2>
     </div>
 </template>
 
